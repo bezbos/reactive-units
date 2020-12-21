@@ -23,10 +23,10 @@ class MonoTest {
 
     @Test
     void unitTest() throws InterruptedException {
-        new Unit<String>()
+        ReactiveUnit.build("Hello World")
                 .log()
-                .just("Hello World")
                 .map(String::toLowerCase)
+                .forOne(System.out::println)
                 .subscribe();
 
         Mono.just("A")
