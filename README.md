@@ -1,9 +1,9 @@
-##Reactive Units
+## Reactive Units
 **Reactive Units** is an implementation of the <a href="http://www.reactive-streams.org/">**Reactive Streams**</a> specification, heavily inspired by <a href="https://projectreactor.io/">**Project Reactor**</a>. Right now it's just a research project, but I'm hoping to reach a level of sophistication and maturity that Project Reactor currently has.
 
-####⚠ WARNING: Do not use this in production, it's not ready yet!
+#### ⚠ WARNING: Do not use this in production, it's not ready yet!
 
-##Licence:
+## Licence:
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. 
 
 <a href="https://creativecommons.org/publicdomain/zero/1.0/">
